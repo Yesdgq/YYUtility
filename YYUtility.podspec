@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'YYUtility'
-    s.version          = '1.1.0'
+    s.version          = '1.1.1'
     s.summary          = 'A utility kit for Swift.'
     
     # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
     # s.dependency 'AFNetworking', '~> 2.3'
     
     #--------------------------------------文件分级--------------------------------------#
-    s.subspec 'Class' do |ss|
-        ss.source_files = 'YYUtility/YYUtility/Classes/Extension/*'
+    s.subspec 'Extension' do |ss|
+        ss.source_files = 'YYUtility/Classes/Extension/*'
     end
     
 end
