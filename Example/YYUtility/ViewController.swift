@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import YYUtility
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+//        if isIphoneX {
+//
+//        }
+        
+        let hh = STATEBAR_HEIGHT
+        let img = UIImageView()
+        img.setCornerImage()
     }
 
     override func didReceiveMemoryWarning() {

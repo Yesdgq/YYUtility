@@ -1,0 +1,16 @@
+PODS:
+  - YYUtility (0.1.0)
+
+DEPENDENCIES:
+  - YYUtility (from `../`)
+
+EXTERNAL SOURCES:
+  YYUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYUtility: 71d3e7cf6f036525db9b68bcaa1e994d13b366ec
+
+PODFILE CHECKSUM: 50023173e0d8d88227ac5bac56a69e80b9cfbbf6
+
+COCOAPODS: 1.9.1
