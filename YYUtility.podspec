@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'YYUtility'
-    s.version          = '1.1.1'
+    s.version          = '1.1.2'
     s.summary          = 'A utility kit for Swift.'
     
     # This description is used to generate tags and improve search results.
@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '11.0'
     
-    s.source_files = 'YYUtility/Classes/**/*'
+     s.source_files = 'YYUtility/Classes/**/*'
+     s.public_header_files = 'YYUtility/Classes/YYUtility.h'
     
     # s.resource_bundles = {
     #   'YYUtility' => ['YYUtility/Assets/*.png']
@@ -39,8 +40,9 @@ Pod::Spec.new do |s|
     # s.dependency 'AFNetworking', '~> 2.3'
     
     #--------------------------------------文件分级--------------------------------------#
-    s.subspec 'Extension' do |ss|
-        ss.source_files = 'YYUtility/Classes/Extension/*'
+    s.subspec 'Core' do |ss|
+        ss.source_files = 'YYUtility/Classes/Core/*.{swift}'
     end
+  
     
 end

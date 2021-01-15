@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YYUtility.h"
 
 FOUNDATION_EXPORT double YYUtilityVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYUtilityVersionString[];

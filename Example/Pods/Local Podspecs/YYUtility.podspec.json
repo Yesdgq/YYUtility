@@ -18,11 +18,12 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "YYUtility/Classes/Core/*",
+  "source_files": "YYUtility/Classes/**/*",
+  "public_header_files": "YYUtility/Classes/YYUtility.h",
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "YYUtility/Classes/Core/Extension/*.{swift}"
+      "source_files": "YYUtility/Classes/Core/*.{swift}"
     }
   ]
 }
