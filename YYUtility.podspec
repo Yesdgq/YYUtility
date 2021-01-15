@@ -7,34 +7,40 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YYUtility'
-  s.version          = '1.0.0'
-  s.summary          = 'A utility kit for Swift.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = 'A utility kit for Swift.'
-
-  s.homepage         = 'https://github.com/Yesdgq/YYUtility.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yesdgq' => 'yesdgq@yahoo.com' }
-  s.source           = { :git => 'https://github.com/Yesdgq/YYUtility.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '11.0'
-
-  s.source_files = 'YYUtility/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YYUtility' => ['YYUtility/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'YYUtility'
+    s.version          = '1.0.0'
+    s.summary          = 'A utility kit for Swift.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = 'A utility kit for Swift.'
+    
+    s.homepage         = 'https://github.com/Yesdgq/YYUtility.git'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'yesdgq' => 'yesdgq@yahoo.com' }
+    s.source           = { :git => 'https://github.com/Yesdgq/YYUtility.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '11.0'
+    
+    s.source_files = 'YYUtility/Classes/**/*'
+    
+    # s.resource_bundles = {
+    #   'YYUtility' => ['YYUtility/Assets/*.png']
+    # }
+    
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
+    
+    #--------------------------------------文件分级--------------------------------------#
+    s.subspec 'Class' do |ss|
+        ss.source_files = 'YYUtility/YYUtility/Classes/Extension/*'
+    end
+    
 end
