@@ -1,6 +1,6 @@
 {
   "name": "YYUtility",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "A utility kit for Swift.",
   "description": "A utility kit for Swift.",
   "homepage": "https://github.com/Yesdgq/YYUtility.git",
@@ -13,16 +13,16 @@
   },
   "source": {
     "git": "https://github.com/Yesdgq/YYUtility.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "YYUtility/Classes/**/*",
+  "source_files": "YYUtility/Classes/Core/*",
   "subspecs": [
     {
-      "name": "Classes",
-      "source_files": "YYUtility/Classes/*"
+      "name": "Core",
+      "source_files": "YYUtility/Classes/Core/Extension/*.{swift}"
     }
   ]
 }

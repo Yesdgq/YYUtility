@@ -1,7 +1,7 @@
 PODS:
-  - YYUtility (1.1.0):
-    - YYUtility/Classes (= 1.1.0)
-  - YYUtility/Classes (1.1.0)
+  - YYUtility (1.1.1):
+    - YYUtility/Core (= 1.1.1)
+  - YYUtility/Core (1.1.1)
 
 DEPENDENCIES:
   - YYUtility (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YYUtility: b7e8a51321f46411315a1bb2158cbb8da835244d
+  YYUtility: a08784102294171ce6e23d89e23ed6393e3b4300
 
 PODFILE CHECKSUM: 4afad304f2f047b93182f578f83e0248c8b56840
 
